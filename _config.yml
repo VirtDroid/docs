@@ -26,7 +26,24 @@ search:
 
 # Enable or disable heading anchors
 heading_anchors: true
-
+collections:
+  # Define a collection named "docs", its documents reside in the "_docs" directory
+  linux:
+    permalink: "/linux"
+    output: true
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "docs" collection
+    docs:
+      # Give the collection a name
+      name: Linux
+      # Exclude the collection from the navigation
+      # Supports true or false (default)
+      nav_exclude: false
+      # Exclude the collection from the search
+      # Supports true or false (default)
+      search_exclude: false
 # Aux links for the upper right navigation
 aux_links:
   "This documentation on GitHub":
