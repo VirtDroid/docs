@@ -1,4 +1,4 @@
-# Virtualizing Linuz
+# Virtualizing Linux
 With this you may run Manjaro, Ubuntu Kali Linux, Fedora, Void and much more with only three apps
 
 ## Starting with dependencies
