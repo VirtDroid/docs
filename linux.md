@@ -13,5 +13,12 @@ Open andronix and choose the distro you prefer, then click Desktop Envoirnement 
 Paste the content andronix copied and wait for it to install.
 You will be "booted" into the distro you've chosen. Type `vncserver-start`, open RealVNC and connect to `localhost:1`. You will be in a Linux Envoirnement.
 If you close termux, to start your distro type `./start-<distro>.sh`
-<p></p>
+
 You can install almost every Linux software, even an AUR helper on arch and derivates. To get docs, click [here](/docs/aur)
+
+If you've chosen arch, I recommend executing 
+```sh
+pacman -S curl
+curl https://raw.githubusercontent.com/VirtDroid/easybuild/master/arch.sh | bash
+```
+to install an AUR helper and basic things
